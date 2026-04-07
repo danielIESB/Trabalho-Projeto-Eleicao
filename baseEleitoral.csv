@@ -1,0 +1,478 @@
+﻿BASE;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+bens de candidato;ano;Não;Ano;INT64;2006 - 2024
+bens de candidato;sigla_uf;Sim;Sigla da Unidade da Federação;STRING;2006 - 2024
+bens de candidato;id_eleicao;Não;ID Eleição;STRING;2006 - 2024
+bens de candidato;tipo_eleicao;Não;Tipo da Eleição;STRING;2006 - 2024
+bens de candidato;data_eleicao;Não;Data da eleição;DATE;2006 - 2024
+bens de candidato;titulo_eleitoral_candidato;Não;Título eleitoral;STRING;2006 - 2024
+bens de candidato;sequencial_candidato;Não;Sequencial do Candidato;STRING;2006 - 2024
+bens de candidato;tipo_item;Não;Tipo Item;STRING;2006 - 2024
+bens de candidato;descricao_item;Não;Descrição do Item;STRING;2006 - 2024
+bens de candidato;valor_item;Não;Valor do Item;FLOAT64;2006 - 2024
+candidatos;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+candidatos;ano;Não;Ano;INT64;1994 - 2024
+candidatos;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+candidatos;tipo_eleicao;Não;Tipo da Eleição;STRING;1994 - 2024
+candidatos;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+candidatos;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+candidatos;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+candidatos;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+candidatos;titulo_eleitoral;Não;Título eleitoral;STRING;
+candidatos;cpf;Não;CPF;STRING;
+candidatos;sequencial;Não;Sequencial;STRING;
+candidatos;numero;Não;Número;STRING;1994 - 2024
+candidatos;nome;Não;Nome;STRING;1994 - 2024
+candidatos;nome_urna;Não;Nome de urna;STRING;1994 - 2024
+candidatos;numero_partido;Não;Número do partido;STRING;1994 - 2024
+candidatos;sigla_partido;Não;Sigla do partido;STRING;1994 - 2024
+candidatos;cargo;Não;Cargo;STRING;1994 - 2024
+candidatos;situacao;Não;Situação;STRING;1994 - 2024
+candidatos;data_nascimento;Não;Data de nascimento;DATE;1994 - 2024
+candidatos;idade;Não;Idade;INT64;1994 - 2024
+candidatos;genero;Não;Gênero;STRING;1994 - 2024
+candidatos;instrucao;Não;Instrução;STRING;1994 - 2024
+candidatos;ocupacao;Não;Ocupação;STRING;1994 - 2024
+candidatos;estado_civil;Não;Estado civil;STRING;1994 - 2024
+candidatos;nacionalidade;Não;Nacionalidade;STRING;1994 - 2024
+candidatos;sigla_uf_nascimento;Não;Sigla da unidade da federação de nascimento;STRING;
+candidatos;municipio_nascimento;Não;Município de nascimento;STRING;
+candidatos;email;Não;Email;STRING;
+candidatos;raca;Não;Raça ou cor;STRING;
+despesas por candidato;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+despesas por candidato;ano;Não;Ano;INT64;2002 - 2024
+despesas por candidato;turno;Não;Turno;INT64;
+despesas por candidato;id_eleicao;Não;ID Eleição;STRING;
+despesas por candidato;tipo_eleicao;Não;Tipo da eleição;STRING;2002 - 2024
+despesas por candidato;data_eleicao;Não;Data da eleição;DATE;
+despesas por candidato;sigla_uf;Sim;Sigla da unidade da federação;STRING;2002 - 2024
+despesas por candidato;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;
+despesas por candidato;id_municipio_tse;Sim;ID Município - TSE;STRING;
+despesas por candidato;titulo_eleitoral_candidato;Não;Título eleitoral;STRING;2002 - 2024
+despesas por candidato;sequencial_candidato;Não;Sequencial do candidato;STRING;2002 - 2002
+despesas por candidato;numero_candidato;Não;Número do candidato;STRING;2002 - 2024
+despesas por candidato;cnpj_candidato;Não;CNPJ do candidato;STRING;2006 - 2006
+despesas por candidato;numero_partido;Não;Número do partido;STRING;2002 - 2024
+despesas por candidato;sigla_partido;Não;Sigla do partido;STRING;2002 - 2024
+despesas por candidato;cargo;Não;Cargo;STRING;2002 - 2024
+despesas por candidato;sequencial_despesa;Não;Sequencial da despesa;STRING;
+despesas por candidato;data_despesa;Não;Data da despesa;DATE;
+despesas por candidato;tipo_despesa;Não;Tipo da despesa;STRING;2002 - 2016
+despesas por candidato;descricao_despesa;Não;Descrição da despesa;STRING;
+despesas por candidato;origem_despesa;Não;Origem da despesa;STRING;
+despesas por candidato;valor_despesa;Não;Valor da despesa;FLOAT64;2002 - 2024
+despesas por candidato;tipo_prestacao_contas;Não;Tipo de prestação de contas;STRING;
+despesas por candidato;data_prestacao_contas;Não;Data de prestação de contas;DATE;
+despesas por candidato;sequencial_prestador_contas;Não;Sequencial do prestador de contas;STRING;
+despesas por candidato;cnpj_prestador_contas;Não;CNPJ do prestador de contas;STRING;
+despesas por candidato;tipo_documento;Não;Tipo do documento;STRING;
+despesas por candidato;numero_documento;Não;Número do documento;STRING;
+despesas por candidato;especie_recurso;Não;Espécie do recurso;STRING;2004 - 2010
+despesas por candidato;fonte_recurso;Não;Fonte do recurso;STRING;2010 - 2010
+despesas por candidato;cpf_cnpj_fornecedor;Não;CPF ou CNPJ do fornecedor;STRING;2002 - 2024
+despesas por candidato;nome_fornecedor;Não;Nome do fornecedor;STRING;2002 - 2024
+despesas por candidato;nome_fornecedor_rf;Não;Nome do fornecedor - Receita Federal;STRING;
+despesas por candidato;cnae_2_fornecedor;Não;Classificação Nacional de Atividades Econômicas 2.0 do fornecedor;STRING;
+despesas por candidato;cnae_2_fornecedor_classe;Não;Classe da CNAE;STRING;2002 - 2024
+despesas por candidato;cnae_2_fornecedor_subclasse;Sim;Subclasse da Classificação de Atividades Econômicas (CNAE);STRING;2002 - 2024
+despesas por candidato;descricao_cnae_2_fornecedor;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do fornecedor;STRING;
+despesas por candidato;tipo_fornecedor;Não;Tipo do fornecedor;STRING;
+despesas por candidato;esfera_partidaria_fornecedor;Não;Esfera partidária do fornecedor;STRING;2002 - 2024
+despesas por candidato;sigla_uf_fornecedor;Não;Sigla da unidade da federação do fornecedor;STRING;
+despesas por candidato;id_municipio_tse_fornecedor;Não;ID Município do fornecedor - TSE;STRING;
+despesas por candidato;sequencial_candidato_fornecedor;Não;Sequencial do candidato fornecedor;STRING;
+despesas por candidato;numero_candidato_fornecedor;Não;Número do candidato do fornecedor;STRING;
+despesas por candidato;numero_partido_fornecedor;Não;Número do partido do fornecedor;STRING;
+despesas por candidato;sigla_partido_fornecedor;Não;Sigla do partido do fornecedor;STRING;
+despesas por candidato;cargo_fornecedor;Não;Cargo do fornecedor;STRING;
+votação por município;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+votação por município;ano;Não;Ano;INT64;1994 - 2024
+votação por município;turno;Não;Turno;INT64;1994 - 2024
+votação por município;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+votação por município;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+votação por município;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+votação por município;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+votação por município;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+votação por município;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+votação por município;cargo;Não;Cargo;STRING;1994 - 2024
+votação por município;aptos;Não;Número de eleitores aptos;INT64;1994 - 2024
+votação por município;secoes;Não;Número de seções eleitorais;INT64;1994 - 2024
+votação por município;secoes_agregadas;Não;Número de seções eleitorais agregadas;INT64;1994 - 2024
+votação por município;aptos_totalizadas;Não;Número de eleitores aptos totalizados;INT64;1994 - 2024
+votação por município;secoes_totalizadas;Não;Número de seções eleitorais totalizadas;INT64;1994 - 2024
+votação por município;comparecimento;Não;Número de Comparecimentos;INT64;1994 - 2024
+votação por município;abstencoes;Não;Número de Abstenções;INT64;1994 - 2024
+votação por município;votos_validos;Não;Número de votos válidos;INT64;1994 - 2024
+votação por município;votos_brancos;Não;Número de votos brancos;INT64;1994 - 2024
+votação por município;votos_nulos;Não;Número de votos nulos;INT64;1994 - 2024
+votação por município;votos_nominais;Não;Número de votos nominais;INT64;1994 - 2024
+votação por município;votos_legenda;Não;Número de votos em legendas;INT64;1994 - 2024
+votação por município;proporcao_comparecimento;Não;Proporção de comparecimento;FLOAT64;1994 - 2024
+votação por município;proporcao_votos_validos;Não;Proporção de votos válidos;FLOAT64;1994 - 2024
+votação por município;proporcao_votos_brancos;Não;Proporção de votos brancos;FLOAT64;1994 - 2024
+votação por município;proporcao_votos_nulos;Não;Proporção de votos nulos;FLOAT64;1994 - 2024
+votação por zona;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+votação por zona;ano;Não;Ano;INT64;1994 - 2024
+votação por zona;turno;Não;Turno;INT64;1994 - 2024
+votação por zona;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+votação por zona;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+votação por zona;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+votação por zona;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+votação por zona;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+votação por zona;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+votação por zona;zona;Não;Zona eleitoral;STRING;1994 - 2024
+votação por zona;cargo;Não;Cargo;STRING;1994 - 2024
+votação por zona;aptos;Não;Número de eleitores aptos;INT64;1994 - 2024
+votação por zona;secoes;Não;Número de seções eleitorais;INT64;1994 - 2024
+votação por zona;secoes_agregadas;Não;Número de seções eleitorais agregadas;INT64;1994 - 2024
+votação por zona;aptos_totalizadas;Não;Número de eleitores aptos totalizados;INT64;1994 - 2024
+votação por zona;secoes_totalizadas;Não;Número de seções eleitorais totalizadas;INT64;1994 - 2024
+votação por zona;comparecimento;Não;Número de Comparecimentos;INT64;1994 - 2024
+votação por zona;abstencoes;Não;Número de Abstenções;INT64;1994 - 2024
+votação por zona;votos_validos;Não;Número de votos válidos;INT64;1994 - 2024
+votação por zona;votos_brancos;Não;Número de votos brancos;INT64;1994 - 2024
+votação por zona;votos_nulos;Não;Número de votos nulos;INT64;1994 - 2024
+votação por zona;votos_nominais;Não;Número de votos nominais;INT64;1994 - 2024
+votação por zona;votos_legenda;Não;Número de votos em coligações;INT64;1994 - 2024
+votação por zona;proporcao_comparecimento;Não;Proporção de comparecimento;FLOAT64;1994 - 2024
+votação por zona;proporcao_votos_validos;Não;Proporção de votos válidos;FLOAT64;1994 - 2024
+votação por zona;proporcao_votos_brancos;Não;Proporção de votos brancos;FLOAT64;1994 - 2024
+votação por zona;proporcao_votos_nulos;Não;Proporção de votos nulos;FLOAT64;1994 - 2024
+local da seção eleitoral;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+local da seção eleitoral;sigla_uf;Sim;Sigla Unidade da Federação;STRING;2008 - 2022
+local da seção eleitoral;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;2008 - 2022
+local da seção eleitoral;zona;Não;Zona Eleitoral;INT64;2008 - 2022
+local da seção eleitoral;secao;Não;Seção Eleitoral;INT64;2008 - 2022
+local da seção eleitoral;ano;Não;Ano;INT64;2008 - 2022
+local da seção eleitoral;melhor_urbano;Não;Melhor estimativa urbana;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;melhor_rural;Não;Melhor estimativa rural;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;tse_recente;Não;Localização do TSE em 2018 e 2020;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;tse_distribuido;Não;Localização do TSE em 2020 redistribuido para anos anteriores;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;escolas_inep;Não;Localização das escolas no INEP;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;escolas_municipais;Não;Localização das escolas em bases estaduais e municipais;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;ibge_cnefe_endereco;Não;Centróide do setor censitário do CNEFE por endereço;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;ibge_cnefe_local;Não;Centróide do setor censitário do CNEFE por local;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;google;Não;Resultado do Google Maps API na precisão ROOFTOP e RANGE_INTERPOLATED;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;google_relaxado;Não;Resultado do Google API Places selecionados manualmente;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;google_centro_geometrico;Não;Resultado do Google Maps API na precisão GEOMETRIC_CENTER;GEOGRAPHY;2008 - 2022
+local da seção eleitoral;ibge_povoados;Não;Localização de povoados rurais isolados do BC250 IBGE;GEOGRAPHY;2008 - 2022
+partidos;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+partidos;ano;Não;Ano;INT64;1990 - 2024
+partidos;turno;Não;Turno;INT64;1990 - 2024
+partidos;id_eleicao;Não;ID Eleição;STRING;
+partidos;tipo_eleicao;Não;Tipo da eleição;STRING;1990 - 2024
+partidos;data_eleicao;Não;Data da eleição;DATE;
+partidos;sigla_uf;Sim;Sigla da unidade da federação;STRING;1990 - 2024
+partidos;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1990 - 2024
+partidos;id_municipio_tse;Sim;ID Município - TSE;STRING;1990 - 2024
+partidos;cargo;Não;Cargo;STRING;1990 - 2024
+partidos;numero;Não;Número;STRING;1990 - 2024
+partidos;sigla;Não;Sigla;STRING;1990 - 2024
+partidos;nome;Não;Nome;STRING;1990 - 2024
+partidos;tipo_agremiacao;Não;Tipo da agremiação;STRING;1990 - 2024
+partidos;sequencial_coligacao;Não;Sequencial da coligação;STRING;1990 - 2024
+partidos;nome_coligacao;Não;Nome da coligação;STRING;1990 - 2024
+partidos;composicao_coligacao;Não;Composição da coligação;STRING;1990 - 2024
+partidos;numero_federacao;Não;Número da federação;STRING;1990 - 2024
+partidos;nome_federacacao;Não;Nome da federação;STRING;1990 - 2024
+partidos;sigla_federacao;Não;Sigla da federação;STRING;1990 - 2024
+partidos;composicao_federacao;Não;Composição da federação;STRING;1990 - 2024
+partidos;situacao_legenda;Não;Situação da legenda;STRING;1990 - 2024
+Perfil por Local de Votação;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Perfil por Local de Votação;ano;Não;Ano;INT64;2010 - 2024
+Perfil por Local de Votação;turno;Não;Turno;INT64;2010 - 2024
+Perfil por Local de Votação;sigla_uf;Sim;Sigla da unidade da federação;STRING;2010 - 2024
+Perfil por Local de Votação;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;2010 - 2024
+Perfil por Local de Votação;id_municipio_tse;Sim;ID Município - TSE;STRING;2010 - 2024
+Perfil por Local de Votação;zona;Não;Zona eleitoral;INT64;2010 - 2024
+Perfil por Local de Votação;secao;Não;Seção eleitoral;INT64;2010 - 2024
+Perfil por Local de Votação;tipo_secao_agregada;Não;Tipo de seção agregada;STRING;2010 - 2024
+Perfil por Local de Votação;numero;Não;Número;STRING;2010 - 2024
+Perfil por Local de Votação;nome;Não;Nome;STRING;2010 - 2024
+Perfil por Local de Votação;tipo;Não;Tipo;STRING;2010 - 2024
+Perfil por Local de Votação;endereco;Não;Endereço;STRING;2010 - 2024
+Perfil por Local de Votação;bairro;Não;Bairro;STRING;2010 - 2024
+Perfil por Local de Votação;cep;Não;CEP;STRING;2010 - 2024
+Perfil por Local de Votação;telefone;Não;Telefone;STRING;2010 - 2024
+Perfil por Local de Votação;latitude;Não;Latitude;FLOAT64;2010 - 2024
+Perfil por Local de Votação;longitude;Não;Longitude;FLOAT64;2010 - 2024
+Perfil por Local de Votação;situacao;Não;Situação;STRING;2010 - 2024
+Perfil por Local de Votação;situacao_zona;Não;Situação da zona eleitoral;STRING;2010 - 2024
+Perfil por Local de Votação;situacao_secao;Não;Situação da seção eleitoral;STRING;2010 - 2024
+Perfil por Local de Votação;situacao_localidade;Não;Situação da localidade;STRING;2010 - 2024
+Perfil por Local de Votação;situacao_secao_acessibilidade;Não;Situação de acessibilidade da seção eleitoral;STRING;
+Perfil por Local de Votação;eleitores_secao;Não;Quantidade de eleitores na seção;INT64;2010 - 2024
+Votação por Seção Eleitor;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Votação por Seção Eleitor;ano;Não;Ano;INT64;1994 - 2024
+Votação por Seção Eleitor;turno;Não;Turno;INT64;1994 - 2024
+Votação por Seção Eleitor;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+Votação por Seção Eleitor;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+Votação por Seção Eleitor;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+Votação por Seção Eleitor;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+Votação por Seção Eleitor;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+Votação por Seção Eleitor;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+Votação por Seção Eleitor;zona;Não;Zona eleitoral;STRING;1994 - 2024
+Votação por Seção Eleitor;secao;Não;Seção eleitoral;INT64;1994 - 2024
+Votação por Seção Eleitor;cargo;Não;Cargo;STRING;1994 - 2024
+Votação por Seção Eleitor;aptos;Não;Número de eleitores aptos;INT64;1994 - 2024
+Votação por Seção Eleitor;comparecimento;Não;Número de comparecimentos;INT64;1994 - 2024
+Votação por Seção Eleitor;abstencoes;Não;Número de abstenções;INT64;1994 - 2024
+Votação por Seção Eleitor;votos_nominais;Não;Número de votos nominais;INT64;1994 - 2024
+Votação por Seção Eleitor;votos_brancos;Não;Número de votos brancos;INT64;1994 - 2024
+Votação por Seção Eleitor;votos_nulos;Não;Número de votos nulos;INT64;1994 - 2024
+Votação por Seção Eleitor;votos_legenda;Não;Número de votos em legenda;INT64;1994 - 2024
+Votação por Seção Eleitor;votos_nulos_apu_sep;Não;Votos nulos apurados separadamente;INT64;1994 - 2024
+Votação por Seção Eleitor;proporcao_comparecimento;Não;Proporção de comparecimento;FLOAT64;1994 - 2024
+Votação por Seção Eleitor;proporcao_votos_nominais;Não;Proporção de votos nominais;FLOAT64;1994 - 2024
+Votação por Seção Eleitor;proporcao_votos_legenda;Não;Proporção de votos em legenda;FLOAT64;1994 - 2024
+Votação por Seção Eleitor;proporcao_votos_brancos;Não;Proporção de votos brancos;FLOAT64;1994 - 2024
+Votação por Seção Eleitor;proporcao_votos_nulos;Não;Proporção de votos nulos;FLOAT64;1994 - 2024
+Perfil por Zona Eleitoral;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Perfil por Zona Eleitoral;ano;Não;Ano;INT64;1998 - 2024
+Perfil por Zona Eleitoral;sigla_uf;Sim;Sigla da unidade da federação;STRING;1998 - 2024
+Perfil por Zona Eleitoral;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1998 - 2024
+Perfil por Zona Eleitoral;id_municipio_tse;Sim;ID Município - TSE;STRING;1998 - 2024
+Perfil por Zona Eleitoral;situacao_biometria;Sim;Situação da biometria;STRING;2012 - 2012
+Perfil por Zona Eleitoral;zona;Não;Zona eleitoral;INT64;
+Perfil por Zona Eleitoral;genero;Sim;Gênero;STRING;1998 - 2024
+Perfil por Zona Eleitoral;estado_civil;Sim;Estado civil;STRING;2012 - 2012
+Perfil por Zona Eleitoral;grupo_idade;Sim;Grupo de idade;STRING;1998 - 2024
+Perfil por Zona Eleitoral;instrucao;Sim;Instrução;STRING;
+Perfil por Zona Eleitoral;eleitores;Não;Número de eleitores;INT64;1998 - 2024
+Perfil por Zona Eleitoral;eleitores_biometria;Não;Número de eleitores com biometria;INT64;2012 - 2012
+Perfil por Zona Eleitoral;eleitores_deficiencia;Não;Número de eleitores com deficiência;INT64;2012 - 2012
+Receitas por Candidato;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Receitas por Candidato;ano;Não;Ano;INT64;2002 - 2024
+Receitas por Candidato;turno;Não;Turno;INT64;
+Receitas por Candidato;id_eleicao;Não;ID Eleição;STRING;
+Receitas por Candidato;tipo_eleicao;Não;Tipo da eleição;STRING;2002 - 2024
+Receitas por Candidato;data_eleicao;Não;Data da eleição;DATE;
+Receitas por Candidato;sigla_uf;Sim;Sigla da unidade da federação;STRING;2002 - 2024
+Receitas por Candidato;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;
+Receitas por Candidato;id_municipio_tse;Sim;ID Município - TSE;STRING;
+Receitas por Candidato;titulo_eleitoral_candidato;Não;Título eleitoral;STRING;2002 - 2024
+Receitas por Candidato;sequencial_candidato;Não;Sequencial do candidato;STRING;2002 - 2002
+Receitas por Candidato;numero_candidato;Não;Número do candidato;STRING;2002 - 2024
+Receitas por Candidato;cnpj_candidato;Não;CNPJ do candidato;STRING;2006 - 2006
+Receitas por Candidato;numero_partido;Não;Número do partido;STRING;
+Receitas por Candidato;sigla_partido;Não;Sigla do partido;STRING;2002 - 2024
+Receitas por Candidato;cargo;Não;Cargo;STRING;2002 - 2024
+Receitas por Candidato;sequencial_receita;Não;Sequencial da receita;STRING;
+Receitas por Candidato;data_receita;Não;Data da receita;DATE;2002 - 2010
+Receitas por Candidato;fonte_receita;Não;Fonte da receita;STRING;
+Receitas por Candidato;origem_receita;Não;Origem da receita;STRING;
+Receitas por Candidato;natureza_receita;Não;Natureza da receita;STRING;
+Receitas por Candidato;especie_receita;Não;Espécie da receita;STRING;2002 - 2002
+Receitas por Candidato;situacao_receita;Não;Situação da receita;STRING;2004 - 2008
+Receitas por Candidato;descricao_receita;Não;Descrição da receita;STRING;
+Receitas por Candidato;valor_receita;Não;Valor da receita;FLOAT64;2002 - 2024
+Receitas por Candidato;sequencial_candidato_doador;Não;Sequencial do candidato doador;STRING;
+Receitas por Candidato;cpf_cnpj_doador;Não;CPF ou CNPJ do doador;STRING;2002 - 2024
+Receitas por Candidato;sigla_uf_doador;Não;Sigla da unidade da federação do doador;STRING;2002 - 2002
+Receitas por Candidato;id_municipio_tse_doador;Não;ID Município do doador - TSE;STRING;2008 - 2008
+Receitas por Candidato;nome_doador;Não;Nome do doador;STRING;2002 - 2024
+Receitas por Candidato;nome_doador_rf;Não;Nome do doador - Receita Federal;STRING;
+Receitas por Candidato;cargo_candidato_doador;Não;Cargo do candidato doador;STRING;
+Receitas por Candidato;numero_partido_doador;Não;Número do partido do doador;STRING;
+Receitas por Candidato;sigla_partido_doador;Não;Sigla do partido do doador;STRING;
+Receitas por Candidato;esfera_partidaria_doador;Não;Esfera partidária do doador;STRING;
+Receitas por Candidato;numero_candidato_doador;Não;Número do candidato doador;STRING;
+Receitas por Candidato;cnae_2_doador;Não;Classificação Nacional de Atividades Econômicas 2.0 do doador;STRING;
+Receitas por Candidato;cnae_2_doador_classe;Não;Classe da CNAE;STRING;2002 - 2024
+Receitas por Candidato;cnae_2_doador_subclasse;Sim;Subclasse da Classificação de Atividades Econômicas (CNAE);STRING;2002 - 2024
+Receitas por Candidato;descricao_cnae_2_doador;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do doador;STRING;
+Receitas por Candidato;cpf_cnpj_doador_orig;Não;CPF ou CNPJ do doador originário;STRING;2014 - 2014
+Receitas por Candidato;nome_doador_orig;Não;Nome do doador originário;STRING;2014 - 2014
+Receitas por Candidato;nome_doador_orig_rf;Não;Nome do doador originário - Receita Federal;STRING;2014 - 2014
+Receitas por Candidato;tipo_doador_orig;Não;Tipo do doador originário;STRING;2014 - 2014
+Receitas por Candidato;descricao_cnae_2_doador_orig;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do doador originário;STRING;2014 - 2014
+Receitas por Candidato;nome_administrador;Não;Nome do administrador;STRING;2008 - 2008
+Receitas por Candidato;cpf_administrador;Não;CPF do administrador;STRING;2008 - 2008
+Receitas por Candidato;numero_recibo_eleitoral;Não;Número do recibo eleitoral;STRING;2010 - 2016
+Receitas por Candidato;numero_documento;Não;Número do documento;STRING;2010 - 2016
+Receitas por Candidato;numero_recibo_doacao;Não;Número do recibo da doação;STRING;
+Receitas por Candidato;numero_documento_doacao;Não;Número do documento da doação;STRING;
+Receitas por Candidato;tipo_prestacao_contas;Não;Tipo de prestação de contas;STRING;
+Receitas por Candidato;data_prestacao_contas;Não;Data de prestação de contas;DATE;
+Receitas por Candidato;sequencial_prestador_contas;Não;Sequencial do prestador de contas;STRING;
+Receitas por Candidato;cnpj_prestador_contas;Não;CNPJ do prestador de contas;STRING;
+Receitas por Candidato;entrega_conjunto;Não;Entrega em conjunto;STRING;2010 - 2010
+Receitas Comitê;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Receitas Comitê;ano;Não;Ano;INT64;2002 - 2014
+Receitas Comitê;sigla_uf;Sim;Sigla da unidade da federação;STRING;2002 - 2014
+Receitas Comitê;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;2002 - 2014
+Receitas Comitê;id_municipio_tse;Sim;ID Município - Tribunal Superior Eleitoral (TSE);STRING;2002 - 2014
+Receitas Comitê;tipo_eleicao;Não;Tipo da eleição;STRING;2002 - 2014
+Receitas Comitê;tipo_comite;Não;Tipo do comite;STRING;2002 - 2014
+Receitas Comitê;sequencial_comite;Não;Sequencial do comite;STRING;2002 - 2014
+Receitas Comitê;numero_partido;Não;Número do partido;STRING;2002 - 2014
+Receitas Comitê;sigla_partido;Não;Sigla do partido;STRING;2002 - 2014
+Receitas Comitê;data_receita;Não;Data da receita;DATE;2002 - 2014
+Receitas Comitê;origem_receita;Não;Origem da receita;STRING;2002 - 2014
+Receitas Comitê;fonte_receita;Não;Fonte da receita;STRING;2002 - 2014
+Receitas Comitê;natureza_receita;Não;Natureza da receita;STRING;2002 - 2014
+Receitas Comitê;situacao_receita;Não;Situação da receita;STRING;2002 - 2014
+Receitas Comitê;descricao_receita;Não;Descrição da receita;STRING;2002 - 2014
+Receitas Comitê;tipo_documento;Não;Tipo de documento;STRING;2002 - 2014
+Receitas Comitê;numero_documento;Não;Número do documento;STRING;2002 - 2014
+Receitas Comitê;nome_membro;Não;Nome do membro;STRING;2002 - 2014
+Receitas Comitê;cpf_membro;Não;CPF do membro;STRING;2002 - 2014
+Receitas Comitê;cnpj_prestador_contas;Não;CNPJ do prestador de contas;STRING;2002 - 2014
+Receitas Comitê;sigla_uf_doador;Não;Sigla da unidade da federação do doador;STRING;2002 - 2014
+Receitas Comitê;nome_doador;Não;Nome do doador;STRING;2002 - 2014
+Receitas Comitê;nome_doador_rf;Não;Nome do doador - Receita Federal;STRING;2002 - 2014
+Receitas Comitê;cpf_cnpj_doador;Não;CPF ou CNPJ do doador;STRING;2002 - 2014
+Receitas Comitê;numero_partido_doador;Não;Número do partido do doador;STRING;2002 - 2014
+Receitas Comitê;numero_candidato_doador;Não;Número do Candidato do Doador;STRING;2002 - 2014
+Receitas Comitê;cnae_2_doador;Não;CNAE 2 do Doador;STRING;2002 - 2014
+Receitas Comitê;cnae_2_doador_classe;Não;Classe da CNAE;STRING;2002 - 2014
+Receitas Comitê;cnae_2_doador_subclasse;Sim;Subclasse da Classificação de Atividades Econômicas (CNAE);STRING;2002 - 2014
+Receitas Comitê;descricao_cnae_2_doador;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do doador;STRING;2002 - 2014
+Receitas Comitê;cpf_cnpj_doador_orig;Não;CPF ou CNPJ do doador originário;STRING;2002 - 2014
+Receitas Comitê;nome_doador_orig;Não;Nome do doador originário;STRING;2002 - 2014
+Receitas Comitê;nome_doador_orig_rf;Não;Nome do doador originário - Receita Federal;STRING;2002 - 2014
+Receitas Comitê;tipo_doador_orig;Sim;Tipo do doador originário;STRING;2002 - 2014
+Receitas Comitê;descricao_cnae_2_doador_orig;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do doador originário;STRING;2002 - 2014
+Receitas Comitê;valor_receita;Não;Valor da receita;FLOAT64;2002 - 2014
+Receitas por Órgão Partidário;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Receitas por Órgão Partidário;ano;Não;Ano;INT64;2010 - 2022
+Receitas por Órgão Partidário;sigla_uf;Sim;Sigla da unidade da federação;STRING;2010 - 2022
+Receitas por Órgão Partidário;id_municipio;Sim;ID Município IBGE 7 Dígitos do diretório;STRING;2010 - 2022
+Receitas por Órgão Partidário;id_municipio_tse;Sim;ID Municipio TSE do diretório;STRING;2010 - 2022
+Receitas por Órgão Partidário;tipo_eleicao;Não;Tipo da Eleição;STRING;2010 - 2022
+Receitas por Órgão Partidário;esfera_partidaria;Não;Esfera Partidária;STRING;2010 - 2022
+Receitas por Órgão Partidário;tipo_diretorio;Não;Tipo diretório;STRING;2010 - 2022
+Receitas por Órgão Partidário;sequencial_diretorio;Não;Sequencial do diretório;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_partido;Não;Número do partido;STRING;2010 - 2022
+Receitas por Órgão Partidário;sigla_partido;Não;Sigla do partido;STRING;2010 - 2022
+Receitas por Órgão Partidário;nome_partido;Não;Nome do partido;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_recibo_eleitoral;Não;Número do recibo eleitoral;STRING;2010 - 2022
+Receitas por Órgão Partidário;tipo_documento;Não;Tipo do documento;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_documento;Não;Número do documento;STRING;2010 - 2022
+Receitas por Órgão Partidário;tipo_prestacao_contas;Não;Tipo de prestação de contas;STRING;2010 - 2022
+Receitas por Órgão Partidário;data_prestacao_contas;Não;Data de prestação de contas;DATE;2010 - 2022
+Receitas por Órgão Partidário;sequencial_prestador_contas;Não;Sequencial do prestador de contas;STRING;2010 - 2022
+Receitas por Órgão Partidário;cnpj_prestador_contas;Não;CNPJ do prestador de contas;STRING;2010 - 2022
+Receitas por Órgão Partidário;data_receita;Não;Data da receita;DATE;2010 - 2022
+Receitas por Órgão Partidário;origem_receita;Não;Origem da receita;STRING;2010 - 2022
+Receitas por Órgão Partidário;fonte_receita;Não;Fonte da receita;STRING;2010 - 2022
+Receitas por Órgão Partidário;natureza_receita;Não;Natureza da receita;STRING;2010 - 2022
+Receitas por Órgão Partidário;especie_receita;Não;Espécie da receita;STRING;2010 - 2022
+Receitas por Órgão Partidário;descricao_receita;Não;Descrição da receita;STRING;2010 - 2022
+Receitas por Órgão Partidário;sequencial_receita;Não;Sequencial da receita;STRING;2010 - 2022
+Receitas por Órgão Partidário;cnae_2_doador;Não;Classificação Nacional de Atividades Econômicas 2.0 do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;cnae_2_doador_classe;Não;Classe da CNAE;STRING;2010 - 2022
+Receitas por Órgão Partidário;cnae_2_doador_subclasse;Sim;Subclasse da Classificação de Atividades Econômicas (CNAE);STRING;2010 - 2022
+Receitas por Órgão Partidário;descricao_cnae_2_doador;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;cpf_cnpj_doador;Não;CPF ou CNPJ do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;nome_doador;Não;Nome do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;nome_doador_rf;Não;Nome do doador - Receita Federal;STRING;2010 - 2022
+Receitas por Órgão Partidário;esfera_partidaria_doador;Não;Esfera partidária do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;sigla_uf_doador;Não;Sigla da unidade da federação do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;id_municipio_doador;Sim;ID Município do doador - IBGE;STRING;2010 - 2022
+Receitas por Órgão Partidário;id_municipio_tse_doador;Não;ID Município do doador - TSE;STRING;2010 - 2022
+Receitas por Órgão Partidário;sequencial_candidato_doador;Não;Sequencial do candidato doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_candidato_doador;Não;Número do candidato doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;cargo_candidato_doador;Não;Cargo do candidato doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_partido_doador;Não;Número do partido do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;sigla_partido_doador;Não;Sigla do partido do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;nome_partido_doador;Não;Nome do partido do doador;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_recibo_doacao;Não;Número do recibo da doação;STRING;2010 - 2022
+Receitas por Órgão Partidário;numero_documento_doacao;Não;Número do documento da doação;STRING;2010 - 2022
+Receitas por Órgão Partidário;cpf_cnpj_doador_orig;Não;CPF ou CNPJ do doador originário;STRING;2010 - 2022
+Receitas por Órgão Partidário;nome_doador_orig;Não;Nome do doador originário;STRING;2010 - 2022
+Receitas por Órgão Partidário;tipo_doador_orig;Não;Tipo do doador originário;STRING;2010 - 2022
+Receitas por Órgão Partidário;descricao_cnae_2_doador_orig;Não;Descrição da Classificação Nacional de Atividades Econômicas 2.0 do doador originário;STRING;2010 - 2022
+Receitas por Órgão Partidário;nome_doador_orig_rf;Não;Nome do doador originário - Receita Federal;STRING;2010 - 2022
+Receitas por Órgão Partidário;valor_receita;Não;Valor da receita;FLOAT64;2010 - 2022
+Resultados por Candidato;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Resultados por Candidato;ano;Não;Ano;INT64;1945 - 2024
+Resultados por Candidato;turno;Não;Turno;INT64;1945 - 2024
+Resultados por Candidato;id_eleicao;Não;ID Eleição;STRING;1945 - 2024
+Resultados por Candidato;tipo_eleicao;Não;Tipo da eleição;STRING;1945 - 2024
+Resultados por Candidato;data_eleicao;Não;Data da eleição;DATE;1945 - 2024
+Resultados por Candidato;sigla_uf;Sim;Sigla da unidade da federação;STRING;1945 - 2024
+Resultados por Candidato;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1945 - 2024
+Resultados por Candidato;id_municipio_tse;Sim;ID Município - TSE;STRING;1945 - 2024
+Resultados por Candidato;cargo;Não;Cargo;STRING;1945 - 2024
+Resultados por Candidato;numero_partido;Não;Número do partido;STRING;1945 - 2024
+Resultados por Candidato;sigla_partido;Não;Sigla do partido;STRING;1945 - 2024
+Resultados por Candidato;titulo_eleitoral_candidato;Não;Título eleitoral;STRING;
+Resultados por Candidato;sequencial_candidato;Não;Sequencial do candidato;STRING;1945 - 2024
+Resultados por Candidato;numero_candidato;Não;Número do candidato;STRING;1945 - 2024
+Resultados por Candidato;resultado;Não;Resultado;STRING;1945 - 2024
+Resultados por Candidato;nome_candidato;Não;Nome do candidato;STRING;1945 - 2024
+Resultados por Candidato;votos;Não;Número de votos;INT64;1945 - 2024
+Resultados por Candidato e Município;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Resultados por Candidato e Município;ano;Não;Ano;INT64;1994 - 2024
+Resultados por Candidato e Município;turno;Não;Turno;INT64;1994 - 2024
+Resultados por Candidato e Município;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+Resultados por Candidato e Município;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+Resultados por Candidato e Município;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+Resultados por Candidato e Município;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+Resultados por Candidato e Município;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+Resultados por Candidato e Município;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+Resultados por Candidato e Município;cargo;Não;Cargo;STRING;1994 - 2024
+Resultados por Candidato e Município;numero_partido;Não;Número do partido;STRING;1994 - 2024
+Resultados por Candidato e Município;sigla_partido;Não;Sigla do partido;STRING;1994 - 2024
+Resultados por Candidato e Município;titulo_eleitoral_candidato;Não;Título eleitoral;STRING;1994 - 2024
+Resultados por Candidato e Município;sequencial_candidato;Não;Sequencial do candidato;STRING;1994 - 2024
+Resultados por Candidato e Município;numero_candidato;Não;Número do candidato;STRING;1994 - 2024
+Resultados por Candidato e Município;resultado;Não;Resultado;STRING;1994 - 2024
+Resultados por Candidato e Município;votos;Não;Número de votos;INT64;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Resultados por Candidato e Zona Eleitoral;ano;Não;Ano;INT64;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;turno;Não;Turno;INT64;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;zona;Não;Zona eleitoral;INT64;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;cargo;Não;Cargo;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;numero_partido;Não;Número do partido;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;sigla_partido;Não;Sigla do partido;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;titulo_eleitoral_candidato;Não;Título eleitoral;STRING;
+Resultados por Candidato e Zona Eleitoral;sequencial_candidato;Não;Sequencial do candidato;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;numero_candidato;Não;Número do candidato;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;resultado;Não;Resultado;STRING;1994 - 2024
+Resultados por Candidato e Zona Eleitoral;votos;Não;Número de votos;INT64;1994 - 2024
+Resultados por Partido e Município;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Resultados por Partido e Município;ano;Não;Ano;INT64;1994 - 2024
+Resultados por Partido e Município;turno;Não;Turno;INT64;1994 - 2024
+Resultados por Partido e Município;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+Resultados por Partido e Município;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+Resultados por Partido e Município;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+Resultados por Partido e Município;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+Resultados por Partido e Município;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+Resultados por Partido e Município;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+Resultados por Partido e Município;cargo;Não;Cargo;STRING;1994 - 2024
+Resultados por Partido e Município;numero_partido;Não;Número do partido;STRING;1994 - 2024
+Resultados por Partido e Município;sigla_partido;Não;Sigla do partido;STRING;1994 - 2024
+Resultados por Partido e Município;votos_nominais;Não;Número de votos nominais;INT64;1994 - 2024
+Resultados por Partido e Município;votos_legenda;Não;Número de votos na legenda;INT64;1994 - 2024
+Resultados por Partido e Zona Eleitoral;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Resultados por Partido e Zona Eleitoral;ano;Não;Ano;INT64;1994 - 2024
+Resultados por Partido e Zona Eleitoral;turno;Não;Turno;INT64;1994 - 2024
+Resultados por Partido e Zona Eleitoral;id_eleicao;Não;ID Eleição;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;data_eleicao;Não;Data da eleição;DATE;1994 - 2024
+Resultados por Partido e Zona Eleitoral;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;zona;Não;Zona eleitoral;INT64;1994 - 2024
+Resultados por Partido e Zona Eleitoral;cargo;Não;Cargo;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;numero_partido;Não;Número do partido;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;sigla_partido;Não;Sigla do partido;STRING;1994 - 2024
+Resultados por Partido e Zona Eleitoral;votos_nominais;Não;Número de votos nominais;INT64;1994 - 2024
+Resultados por Partido e Zona Eleitoral;votos_legenda;Não;Número de votos na legenda;INT64;1994 - 2024
+Vaga;Nome;Precisa de tradução;Descrição;Tipo No BigQuery;Cobertura Temporal
+Vaga;ano;Não;Ano;INT64;1994 - 2024
+Vaga;id_eleicao;Não;ID Eleição;STRING;
+Vaga;tipo_eleicao;Não;Tipo da eleição;STRING;1994 - 2024
+Vaga;data_eleicao;Não;Data da eleição;DATE;
+Vaga;sigla_uf;Sim;Sigla da unidade da federação;STRING;1994 - 2024
+Vaga;id_municipio;Sim;ID Município - IBGE 7 Dígitos;STRING;1994 - 2024
+Vaga;id_municipio_tse;Sim;ID Município - TSE;STRING;1994 - 2024
+Vaga;cargo;Não;Cargo;STRING;1994 - 2024
+Vaga;vagas;Não;Número de vagas;INT64;1994 - 2024
